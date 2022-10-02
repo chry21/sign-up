@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+* {
+    margin: 0;
+}
+
+#homepage {
+    display: flex;
+}
+
+#first-half {
+    width: 50vw;
+    height: 100vh;
+    background-color: rgba(103, 3, 71, 0.887);
+}
+
+#title {
+    font-size: 8rem;
+    color: rgb(226, 131, 43);
+    padding-left: 250px;
+    padding-top: 120px;
+    font-family: 'Changa One', cursive;
+    font-weight: bolder;
+}
+
+#subtitle {
+    padding-left: 250px;
+    font-size: 28px;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+
+img {
+    padding-left: 210px;
+    width: 710px;
+    height: 500px;
+}
+
+#second-half {
+    width: 50vw;
+    height: 100vh;
+    background-color: rgba(103, 3, 71, 0.887);
+}
+
+#form-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 140px;
+    margin-left: 200px;
+    width: 500px;
+    height: 600px; 
+    align-items: center;
+    gap: 20px;
+}
+
+#form-title {
+    margin-top: 100px;
+    color: orange;
+    font-size: 50px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+input, button {
+    border-radius: 5px;
+    font-size: 18px;
+    appearance: none;
+    border: none;
+} 
+
+input {    
+    width: 400px;
+    height: 45px;
+    padding-left: 20px;
+}
+
+button {
+    width: 420px;
+    height: 45px;
+    background-color: orange;
+    color: white;
+    font-size: 22px;
+}
+
+input:placeholder-shown {
+    outline: none;
+}
+input:focus {
+    outline: 2px solid orange;
+}
+
+input:not(:placeholder-shown):invalid {
+    outline: 3px solid red;
+}

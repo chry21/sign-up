@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Talk: iscriviti</title>
+</head>
+<body>
+    <div id="homepage">
+
+        <div id="first-half">
+            <h1 id="title">Talk</h1>
+            <h2 id="subtitle">Interagisci, scambia idee e confrontati sui <br> tuoi argomenti preferiti con persone da tutto il mondo. Let's Talk! </h3>
+            <img src="sign-up.png" alt=""> 
+        </div>
+
+        <div id="second-half">        
+            <form onsubmit="return verifyPassword()">
+                <div id="form-container">
+                    <h1 id="form-title">Iscriviti</h1>
+                    <input type="text" id="nome" placeholder="Nome" name="nome" required minlength="3">
+                    <input type="text " placeholder="Cognome" name="cognome" minlength="3">
+                    <input type="email" placeholder="E-mail" name="email">
+                    <input type="password" placeholder="Password" id="psw" name="password" minlength="8">
+                    <input type="password" placeholder="Confirm password" id="conf-psw" minlength="8">
+                    <button type="submit" id="btn">Iscriviti</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
